@@ -1,6 +1,3 @@
----
-title: Pulse Guard Terms of Use
----
 
 # Pulse Guard Terms of Use
 
@@ -87,7 +84,7 @@ Your use of Pulse Guard is also governed by our Privacy Policy.
 
 Because Pulse Guard may process sensitive information such as video, audio, location, and incident data, you should read the Privacy Policy carefully before using the app.
 
-Privacy Policy: https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf
+Privacy Policy: coming soon
 
 ## 11. Availability and Changes
 
