@@ -84,7 +84,7 @@ Your use of Pulse Guard is also governed by our Privacy Policy.
 
 Because Pulse Guard may process sensitive information such as video, audio, location, and incident data, you should read the Privacy Policy carefully before using the app.
 
-Privacy Policy: coming soon
+Privacy Policy: [View our Privacy Policy](https://bukho-mabhula.github.io/pulse-guard-privacy-policy/)
 
 ## 11. Availability and Changes
 
