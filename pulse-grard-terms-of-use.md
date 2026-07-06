@@ -1,3 +1,7 @@
+---
+title: Pulse Guard Terms of Use
+---
+
 # Pulse Guard Terms of Use
 
 **Effective date:** 01/04/2026
