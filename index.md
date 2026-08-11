@@ -1,6 +1,3 @@
----
-
----
 
 # Pulse Guard Terms of Use
 
