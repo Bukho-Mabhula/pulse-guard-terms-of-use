@@ -1,4 +1,4 @@
-
+<style> h1 a, .project-name, #project_title, header h1 { display: none !important; } </style>
 # Pulse Guard Terms of Use
 
 **Effective date:** 01/04/2026
