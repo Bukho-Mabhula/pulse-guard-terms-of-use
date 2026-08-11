@@ -1,5 +1,5 @@
 ---
-layout: default
+
 title: Pulse Guard Terms of Use
 ---
 
