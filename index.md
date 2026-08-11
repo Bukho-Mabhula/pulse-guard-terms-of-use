@@ -1,6 +1,5 @@
 ---
 
-title: Pulse Guard Terms of Use
 ---
 
 # Pulse Guard Terms of Use
