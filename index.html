@@ -1,0 +1,1095 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Pulse Guard | Terms of Use</title>
+
+  <meta
+    name="description"
+    content="Pulse Guard Terms of Use"
+  />
+
+  <style>
+    :root {
+      /* Replace this with your actual Pulse Guard primary color */
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+
+      --background: #f5f7fa;
+      --surface: #ffffff;
+
+      --text: #17202a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 16px 24px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .privacy-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .privacy-link:hover {
+      color: var(--primary-dark);
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+      background: var(--primary);
+      color: #ffffff;
+      padding: 70px 24px;
+    }
+
+    .hero-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.3rem, 5vw, 3.5rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 680px;
+      font-size: 1.05rem;
+      opacity: 0.92;
+    }
+
+    .dates {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+
+    .date {
+      padding: 8px 14px;
+      border-radius: 999px;
+
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+
+      font-size: 0.84rem;
+    }
+
+    /* =========================
+       MAIN CONTENT
+    ========================= */
+
+    main {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 24px;
+    }
+
+    .terms-card {
+      background: var(--surface);
+
+      border: 1px solid var(--border);
+      border-radius: 18px;
+
+      padding: 50px;
+
+      box-shadow:
+        0 10px 35px rgba(15, 23, 42, 0.05);
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: #334155;
+    }
+
+    section {
+      margin-top: 42px;
+    }
+
+    section:first-child {
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      line-height: 1.3;
+
+      margin-bottom: 14px;
+
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin-bottom: 14px;
+    }
+
+    ul {
+      margin: 16px 0 16px 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      padding-left: 4px;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+    }
+
+    /* =========================
+       CONTACT
+    ========================= */
+
+    .contact-box {
+      background: #f8fafc;
+
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--primary);
+
+      padding: 22px;
+
+      border-radius: 8px;
+    }
+
+    .contact-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+
+      padding: 30px 24px;
+    }
+
+    .footer-content {
+      max-width: 900px;
+      margin: 0 auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 20px;
+
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .footer-brand img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+    }
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 700px) {
+
+      .nav {
+        padding: 14px 18px;
+      }
+
+      .privacy-link {
+        display: none;
+      }
+
+      .hero {
+        padding: 55px 20px;
+      }
+
+      main {
+        margin: 30px auto;
+        padding: 0 14px;
+      }
+
+      .terms-card {
+        padding: 30px 22px;
+        border-radius: 14px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVIGATION
+  ========================= -->
+
+  <header>
+    <nav class="nav">
+
+      <a href="#" class="brand">
+        <img
+          src="logo.png"
+          alt="Pulse Guard logo"
+        />
+
+        <span>Pulse Guard</span>
+      </a>
+
+      <a
+        href="https://bukho-mabhula.github.io/pulse-guard-privacy-policy/"
+        class="privacy-link"
+      >
+        Privacy Policy →
+      </a>
+
+    </nav>
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================= -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Terms of Use</h1>
+
+      <p>
+        These Terms govern your access to and use of the
+        Pulse Guard mobile application, website, and related services.
+      </p>
+
+      <div class="dates">
+
+        <span class="date">
+          Effective: 1 April 2026
+        </span>
+
+        <span class="date">
+          Last updated: 6 July 2026
+        </span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       TERMS
+  ========================= -->
+
+  <main>
+
+    <article class="terms-card">
+
+      <!-- INTRODUCTION -->
+
+      <section>
+
+        <p class="intro">
+          Welcome to Pulse Guard. These Terms of Use govern your
+          access to and use of the Pulse Guard mobile application,
+          website, and related services.
+        </p>
+
+        <p>
+          By accessing or using Pulse Guard, you agree to be bound
+          by these Terms. If you do not agree with these Terms,
+          please do not use Pulse Guard.
+        </p>
+
+      </section>
+
+
+      <!-- 1 -->
+
+      <section>
+
+        <h2>1. About Pulse Guard</h2>
+
+        <p>
+          Pulse Guard is a community safety and incident reporting
+          application designed to help users record and submit video
+          reports, location information, and other incident-related
+          details.
+        </p>
+
+        <p>
+          Depending on the features available, Pulse Guard may also
+          provide safety alerts, location-based information, heatmaps,
+          report status updates, and acknowledgement notifications.
+        </p>
+
+        <p>
+          Pulse Guard is intended to support community safety
+          awareness and incident reporting. It is not a replacement
+          for emergency services.
+        </p>
+
+      </section>
+
+
+      <!-- 2 -->
+
+      <section>
+
+        <h2>2. Emergency Disclaimer</h2>
+
+        <p>
+          Pulse Guard does not guarantee emergency response, police
+          response, medical assistance, or real-time intervention.
+        </p>
+
+        <p>
+          If you are experiencing an emergency or believe that you
+          or another person is in immediate danger, contact the
+          appropriate local emergency services immediately.
+        </p>
+
+        <p>
+          You are responsible for taking reasonable precautions to
+          protect yourself and others when recording, submitting,
+          or responding to an incident.
+        </p>
+
+        <p>
+          Do not put yourself in danger to capture footage or submit
+          a report.
+        </p>
+
+      </section>
+
+
+      <!-- 3 -->
+
+      <section>
+
+        <h2>3. Eligibility</h2>
+
+        <p>
+          You may use Pulse Guard only if you are legally permitted
+          to enter into these Terms.
+        </p>
+
+        <p>
+          If you access or use Pulse Guard on behalf of an organisation,
+          you represent that you have the authority to act on behalf
+          of that organisation and to bind it to these Terms.
+        </p>
+
+      </section>
+
+
+      <!-- 4 -->
+
+      <section>
+
+        <h2>4. User Reports and Submitted Content</h2>
+
+        <p>
+          Pulse Guard allows users to submit content such as videos,
+          photographs where supported, location information, incident
+          descriptions, messages, and other related information.
+        </p>
+
+        <p>
+          When submitting content through Pulse Guard, you agree that:
+        </p>
+
+        <ul>
+
+          <li>
+            The information you provide is accurate to the best
+            of your knowledge.
+          </li>
+
+          <li>
+            You will not intentionally submit false, misleading,
+            fabricated, or fraudulent reports.
+          </li>
+
+          <li>
+            You will not knowingly submit unlawful, harmful,
+            or abusive content.
+          </li>
+
+          <li>
+            You understand that submitted content may be reviewed,
+            stored, processed, or shared with authorised personnel
+            or relevant safety authorities where appropriate.
+          </li>
+
+          <li>
+            You will only submit content that you have the legal
+            right to submit.
+          </li>
+
+        </ul>
+
+        <p>
+          You retain ownership of content that you submit to Pulse Guard.
+          However, by submitting content, you grant Pulse Guard a limited,
+          non-exclusive right to use, store, process, transmit, display,
+          and share that content where reasonably necessary to operate
+          the service, review and manage incidents, provide safety-related
+          functionality, improve the service, or support lawful
+          investigations and responses.
+        </p>
+
+      </section>
+
+
+      <!-- 5 -->
+
+      <section>
+
+        <h2>5. Location and Device Permissions</h2>
+
+        <p>
+          Pulse Guard may request access to certain device features
+          and permissions, including:
+        </p>
+
+        <ul>
+
+          <li>Camera</li>
+
+          <li>Microphone</li>
+
+          <li>Location</li>
+
+          <li>Notifications</li>
+
+          <li>
+            Other device features required for specific functionality
+          </li>
+
+        </ul>
+
+        <p>
+          These permissions may be required to provide features such
+          as video reporting, incident location, safety alerts,
+          notifications, and report status updates.
+        </p>
+
+        <p>
+          You may disable permissions through your device settings.
+          However, disabling certain permissions may prevent some
+          Pulse Guard features from functioning correctly.
+        </p>
+
+      </section>
+
+
+      <!-- 6 -->
+
+      <section>
+
+        <h2>6. Report Status and Acknowledgements</h2>
+
+        <p>
+          Pulse Guard may provide updates indicating that a report
+          has been submitted, received, reviewed, acknowledged,
+          resolved, or otherwise updated.
+        </p>
+
+        <p>
+          These status indicators are provided for informational
+          purposes only.
+        </p>
+
+        <p>
+          A report status or acknowledgement does not guarantee that:
+        </p>
+
+        <ul>
+
+          <li>
+            An authority has taken action.
+          </li>
+
+          <li>
+            Emergency services are responding.
+          </li>
+
+          <li>
+            An incident has been verified.
+          </li>
+
+          <li>
+            A report has resulted in an investigation.
+          </li>
+
+          <li>
+            Any particular outcome will occur.
+          </li>
+
+        </ul>
+
+        <p>
+          An acknowledgement only indicates that the relevant report
+          status available to Pulse Guard has been updated.
+        </p>
+
+      </section>
+
+
+      <!-- 7 -->
+
+      <section>
+
+        <h2>7. Prohibited Use</h2>
+
+        <p>
+          You agree not to use Pulse Guard to:
+        </p>
+
+        <ul>
+
+          <li>
+            Submit false, fabricated, staged, abusive, or deliberately
+            misleading reports.
+          </li>
+
+          <li>
+            Harass, threaten, intimidate, defame, or endanger
+            another person.
+          </li>
+
+          <li>
+            Record, upload, or share content unlawfully.
+          </li>
+
+          <li>
+            Interfere with emergency services, law enforcement,
+            or public safety operations.
+          </li>
+
+          <li>
+            Upload malware, malicious software, harmful code,
+            or unauthorised data.
+          </li>
+
+          <li>
+            Attempt to gain unauthorised access to Pulse Guard
+            systems, accounts, networks, or data.
+          </li>
+
+          <li>
+            Use Pulse Guard for stalking, unlawful surveillance,
+            intimidation, discrimination, or harassment.
+          </li>
+
+          <li>
+            Circumvent or interfere with security features or
+            technical safeguards.
+          </li>
+
+          <li>
+            Use Pulse Guard in a manner that could harm the service,
+            its users, or third parties.
+          </li>
+
+        </ul>
+
+        <p>
+          Pulse Guard may suspend, restrict, or terminate access where
+          we reasonably believe that the service has been misused or
+          these Terms have been violated.
+        </p>
+
+      </section>
+
+
+      <!-- 8 -->
+
+      <section>
+
+        <h2>8. Safety and Recording Responsibility</h2>
+
+        <p>
+          You should only record, submit, or respond to incidents
+          when it is safe and lawful to do so.
+        </p>
+
+        <p>
+          Do not place yourself or another person in unnecessary
+          danger to capture video or submit a report.
+        </p>
+
+        <p>
+          You must not obstruct emergency responders, law enforcement
+          officers, security personnel, or members of the public
+          while using Pulse Guard.
+        </p>
+
+        <p>
+          You are responsible for complying with applicable laws
+          when recording, storing, or submitting content.
+        </p>
+
+      </section>
+
+
+      <!-- 9 -->
+
+      <section>
+
+        <h2>9. Third-Party Services</h2>
+
+        <p>
+          Pulse Guard may use third-party services to provide certain
+          functionality, including hosting, cloud storage, maps,
+          notifications, analytics, authentication, and other
+          infrastructure.
+        </p>
+
+        <p>
+          Third-party services may operate under their own terms
+          of service and privacy policies.
+        </p>
+
+        <p>
+          Pulse Guard does not control third-party services and is
+          not responsible for their availability, performance,
+          content, policies, or actions.
+        </p>
+
+      </section>
+
+
+      <!-- 10 -->
+
+      <section>
+
+        <h2>10. Privacy</h2>
+
+        <p>
+          Your use of Pulse Guard is also subject to our
+          Privacy Policy.
+        </p>
+
+        <p>
+          Pulse Guard may process information such as video, audio,
+          location data, incident information, device information,
+          and account information in connection with providing
+          the service.
+        </p>
+
+        <p>
+          Because some of this information may be sensitive, we
+          encourage you to review our Privacy Policy before using
+          Pulse Guard.
+        </p>
+
+        <p>
+          <a
+            href="https://bukho-mabhula.github.io/pulse-guard-privacy-policy/"
+          >
+            View our Privacy Policy →
+          </a>
+        </p>
+
+      </section>
+
+
+      <!-- 11 -->
+
+      <section>
+
+        <h2>11. Service Availability and Changes</h2>
+
+        <p>
+          We may modify, update, suspend, restrict, or discontinue
+          any part of Pulse Guard at any time.
+        </p>
+
+        <p>
+          We may also introduce new features, remove existing
+          features, or change how certain features operate.
+        </p>
+
+        <p>
+          Although we aim to provide a reliable service, we do not
+          guarantee that Pulse Guard will always be:
+        </p>
+
+        <ul>
+
+          <li>Available.</li>
+
+          <li>Uninterrupted.</li>
+
+          <li>Secure.</li>
+
+          <li>Accurate.</li>
+
+          <li>Error-free.</li>
+
+          <li>Free from delays or technical problems.</li>
+
+        </ul>
+
+        <p>
+          Features may also be temporarily unavailable due to
+          maintenance, technical issues, third-party service failures,
+          network problems, or circumstances beyond our reasonable
+          control.
+        </p>
+
+      </section>
+
+
+      <!-- 12 -->
+
+      <section>
+
+        <h2>12. No Warranty</h2>
+
+        <p>
+          Pulse Guard is provided "as is" and "as available."
+        </p>
+
+        <p>
+          To the fullest extent permitted by applicable law, Pulse Guard
+          makes no warranties or guarantees regarding the accuracy,
+          reliability, availability, completeness, suitability, or
+          performance of the application, reports, alerts, heatmaps,
+          notifications, or status information.
+        </p>
+
+        <p>
+          You use Pulse Guard at your own discretion and risk.
+        </p>
+
+      </section>
+
+
+      <!-- 13 -->
+
+      <section>
+
+        <h2>13. Limitation of Liability</h2>
+
+        <p>
+          To the fullest extent permitted by applicable law, Pulse Guard,
+          its owners, developers, partners, and service providers will
+          not be liable for indirect, incidental, special, consequential,
+          or punitive damages arising from or related to your use of
+          the service.
+        </p>
+
+        <p>
+          This may include damages or losses arising from:
+        </p>
+
+        <ul>
+
+          <li>
+            Delayed, failed, or incomplete report delivery.
+          </li>
+
+          <li>
+            Failure to receive an emergency or safety response.
+          </li>
+
+          <li>
+            Lack of police, medical, or emergency intervention.
+          </li>
+
+          <li>
+            Incorrect, incomplete, or outdated incident information.
+          </li>
+
+          <li>
+            Application downtime or technical failures.
+          </li>
+
+          <li>
+            Loss of data or submitted content.
+          </li>
+
+          <li>
+            Misuse of the application by users or third parties.
+          </li>
+
+          <li>
+            Failures or interruptions involving third-party services.
+          </li>
+
+          <li>
+            Reliance on information, alerts, reports, or status
+            updates provided through Pulse Guard.
+          </li>
+
+        </ul>
+
+        <p>
+          Nothing in these Terms is intended to exclude or limit
+          liability where such exclusion or limitation is prohibited
+          by applicable law.
+        </p>
+
+      </section>
+
+
+      <!-- 14 -->
+
+      <section>
+
+        <h2>14. Account Suspension or Termination</h2>
+
+        <p>
+          We may suspend, restrict, or terminate your access to
+          Pulse Guard if we reasonably believe that you:
+        </p>
+
+        <ul>
+
+          <li>
+            Have violated these Terms.
+          </li>
+
+          <li>
+            Have misused the service.
+          </li>
+
+          <li>
+            Have submitted false or fraudulent reports.
+          </li>
+
+          <li>
+            Have created a safety or security risk.
+          </li>
+
+          <li>
+            Have used the service unlawfully.
+          </li>
+
+          <li>
+            Have attempted to compromise the service or another
+            user's account.
+          </li>
+
+        </ul>
+
+        <p>
+          Where appropriate, we may take such action without prior
+          notice if necessary to protect users, the service,
+          or third parties.
+        </p>
+
+      </section>
+
+
+      <!-- 15 -->
+
+      <section>
+
+        <h2>15. Changes to These Terms</h2>
+
+        <p>
+          We may update these Terms from time to time.
+        </p>
+
+        <p>
+          When changes are made, we will update the
+          "Last Updated" date at the top of this page.
+        </p>
+
+        <p>
+          Your continued use of Pulse Guard after updated Terms
+          have been published constitutes acceptance of the revised
+          Terms, to the extent permitted by applicable law.
+        </p>
+
+        <p>
+          If you do not agree with the updated Terms, you should
+          stop using Pulse Guard.
+        </p>
+
+      </section>
+
+
+      <!-- 16 -->
+
+      <section>
+
+        <h2>16. Governing Law</h2>
+
+        <p>
+          These Terms are governed by and interpreted in accordance
+          with the laws of the Republic of South Africa, unless
+          applicable law requires otherwise.
+        </p>
+
+        <p>
+          Any disputes relating to these Terms or your use of
+          Pulse Guard will be subject to the applicable courts
+          and laws of the Republic of South Africa.
+        </p>
+
+      </section>
+
+
+      <!-- 17 -->
+
+      <section>
+
+        <h2>17. Contact Us</h2>
+
+        <div class="contact-box">
+
+          <p>
+            If you have questions, concerns, or requests regarding
+            these Terms, you can contact us at:
+          </p>
+
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:pulseguard@gmail.com">
+              pulseguard@gmail.com
+            </a>
+          </p>
+
+          <p>
+            <strong>Application:</strong>
+            Pulse Guard
+          </p>
+
+        </div>
+
+      </section>
+
+
+    </article>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+
+    <div class="footer-content">
+
+      <div class="footer-brand">
+
+        <img
+          src="logo.png"
+          alt="Pulse Guard logo"
+        />
+
+        <span>
+          © 2026 Pulse Guard. All rights reserved.
+        </span>
+
+      </div>
+
+      <span>
+        Terms of Use
+      </span>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
+```
